@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Order received — WARCRAFTS Scale Models</title>
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#0a0c0e">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Saira+Condensed:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="thanks">
+  <div id="site-header"></div>
+
+  <main class="wrap">
+    <section class="thanks">
+      <div class="seal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></div>
+      <span class="kicker">Mission confirmed</span>
+      <h1 class="h-display">Thank you<span id="thanksName"></span>!</h1>
+      <p>Your order has been received. We'll call or WhatsApp you shortly to confirm delivery details.</p>
+      <div class="order-id" id="orderId"></div>
+      <p class="muted" id="thanksTotal" style="margin-top:-14px;font-size:15px"></p>
+      <div class="hero-ctas" style="justify-content:center;margin-top:24px">
+        <a class="btn btn-wa" id="thanksWa" target="_blank" rel="noopener">Send order on WhatsApp</a>
+        <a class="btn btn-ghost" href="shop.html">Continue shopping</a>
+      </div>
+      <p class="muted" style="font-size:13px;margin-top:22px">Want it faster? Tap the WhatsApp button to send us your order details directly.</p>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="js/config.js"></script>
+  <script src="js/products.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WARCRAFTS Scale Models — Fighter Jets, Helicopters & Warship Replicas</title>
+  <meta name="description" content="Museum-grade scale models of fighter jets, WWII warbirds, attack helicopters, drones and aircraft carriers. Detailed, display-ready, delivered nationwide with cash on delivery.">
+  <meta property="og:title" content="WARCRAFTS Scale Models">
+  <meta property="og:description" content="Command the skies. Rule the seas. On your desk.">
+  <meta property="og:image" content="assets/hero-carrier.jpg">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#0a0c0e">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Saira+Condensed:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="assets/hero-carrier.jpg">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="home">
+  <div id="site-header"></div>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-media"><img src="assets/hero-carrier.jpg" alt="Close-up of the Liaoning aircraft carrier model's flight deck with fighters and helicopters"></div>
+      <div class="hud hud-tr"><i></i>Live inventory<br>Ready to ship nationwide</div>
+      <div class="wrap">
+        <div class="hero-content">
+          <span class="kicker">Collector-grade scale replicas</span>
+          <h1 class="h-display">Command the skies.<br><em>On your desk.</em></h1>
+          <p class="lead">Precision scale models of the world's most iconic fighter jets, warbirds, helicopters and capital ships — finished with obsessive detail and ready to display.</p>
+          <div class="hero-ctas">
+            <a href="shop.html" class="btn btn-primary">Shop the collection
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+            <a href="#featured" class="btn btn-ghost">View bestsellers</a>
+          </div>
+          <div class="hero-stats">
+            <div><b id="statModels">17+</b><span>Models in stock</span></div>
+            <div><b>1:72–1:144</b><span>Collector scales</span></div>
+            <div><b>COD</b><span>Nationwide delivery</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true"><div class="marquee-track" id="marquee"></div></div>
+
+    <!-- CATEGORIES -->
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div><span class="kicker">Choose your theatre</span><h2 class="h-display">Shop by category</h2></div>
+          <p>From fifth-generation stealth fighters to a full aircraft carrier with its air wing — find your next centerpiece.</p>
+        </div>
+        <div class="cat-grid" id="catGrid"></div>
+      </div>
+    </section>
+
+    <!-- FEATURED -->
+    <section class="section" id="featured" style="padding-top:0">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div><span class="kicker">Most wanted</span><h2 class="h-display">Bestsellers</h2></div>
+          <a href="shop.html" class="link-arrow">View all models
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+        <div class="grid" id="featuredGrid"></div>
+      </div>
+    </section>
+
+    <!-- SPOTLIGHT: F-14 -->
+    <section class="section spotlight">
+      <div class="wrap spot-grid">
+        <div class="spot-copy reveal">
+          <span class="kicker">Spotlight · Movable wings</span>
+          <h2 class="h-display">F-14 Tomcat<br>“Jolly Rogers”</h2>
+          <p>Just like the real interceptor, this Tomcat's variable-sweep wings move. Drag the slider to sweep them from take-off to Mach-dash configuration.</p>
+          <div class="spot-specs">
+            <div><b>1:144</b><span>Scale</span></div>
+            <div><b>3</b><span>Wing positions</span></div>
+            <div><b id="f14Price">—</b><span>Price</span></div>
+          </div>
+          <div class="hero-ctas">
+            <button class="btn btn-primary" data-add-f14>Add to cart</button>
+            <a class="btn btn-ghost" href="product.html?id=f-14-tomcat">View details</a>
+          </div>
+        </div>
+        <div class="spot-stage reveal" id="sweepStage">
+          <div class="sweep-ctrl">
+            <label for="sweep">Wing sweep <b id="sweepVal">Forward · 20°</b></label>
+            <input type="range" id="sweep" min="0" max="2" step="1" value="0">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY US -->
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div><span class="kicker">Why collectors choose us</span><h2 class="h-display">Built to impress</h2></div>
+        </div>
+        <div class="features reveal">
+          <div class="feature">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg>
+            <h3>Museum-grade detail</h3>
+            <p>Accurate panel lines, squadron markings, weapons loads and cockpit canopies on every model.</p>
+          </div>
+          <div class="feature">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 20h16l-3-4H7z"/><path d="M12 16V9M7 6l5 3 5-3"/></svg>
+            <h3>Stand included</h3>
+            <p>Display in flight on a sculpted stand, or parked wheels-down — most models support both.</p>
+          </div>
+          <div class="feature">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.1L3 17.7 6.3 21l6.3-6.3a4 4 0 0 0 5.1-5.4l-2.4 2.4-2.6-.6-.6-2.6z"/></svg>
+            <h3>Built or kit</h3>
+            <p>Ready-to-display pieces for instant gratification, plus assembly kits for hands-on builders.</p>
+          </div>
+          <div class="feature">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg>
+            <h3>Packed like ordnance</h3>
+            <p>Foam-protected packaging, nationwide delivery and cash on delivery for total peace of mind.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CARRIER -->
+    <section class="section" style="padding-top:0">
+      <div class="wrap">
+        <div class="split reveal">
+          <div class="split-media">
+            <img src="assets/deck.jpg" alt="Liaoning aircraft carrier model flight deck with J-15 fighters" loading="lazy">
+            <span class="badge brass tag">Flagship piece</span>
+          </div>
+          <div class="split-copy">
+            <span class="kicker">Naval · Capital ship</span>
+            <h2 class="h-display">Liaoning CV-16 Aircraft Carrier</h2>
+            <p>A complete floating airbase for your shelf — every fighter and helicopter of the air wing spotted on a fully marked flight deck.</p>
+            <ul>
+              <li>Full air wing of fighters & helicopters</li>
+              <li>Detailed island superstructure & ski-jump bow</li>
+              <li>Clear acrylic display case + branded base</li>
+            </ul>
+            <div class="price-big" id="cvPrice">—</div>
+            <div class="hero-ctas">
+              <a href="product.html?id=liaoning-cv-16" class="btn btn-primary">View the carrier</a>
+              <button class="btn btn-ghost" data-add="liaoning-cv-16">Add to cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" id="faq" style="padding-top:20px">
+      <div class="wrap faq-grid">
+        <div class="reveal">
+          <span class="kicker">Briefing room</span>
+          <h2 class="h-display" style="font-size:clamp(40px,5vw,60px);margin-top:14px">Frequently asked</h2>
+          <p class="muted">Can't find your answer? Message us on WhatsApp — we usually reply within the hour.</p>
+          <a class="btn btn-wa" data-wa="Hi! I have a question about your scale models." target="_blank" rel="noopener" style="margin-top:10px">Ask on WhatsApp</a>
+        </div>
+        <div class="faq reveal">
+          <details open><summary>What are the models made of?</summary><p>Our models are premium die-cast alloy with finely detailed parts — they have real weight and a quality finish that plastic toys can't match.</p></details>
+          <details><summary>Do they come assembled?</summary><p>Most models arrive ready to display — just place them on the included stand. Some items are assembly kits for hobbyists who enjoy building; these are clearly marked “Assembly kit” on the product page.</p></details>
+          <details><summary>How long does delivery take?</summary><p>Orders are dispatched within 1–2 days and usually arrive in 3–5 working days nationwide. You'll receive tracking details on WhatsApp.</p></details>
+          <details><summary>How do I pay?</summary><p>Cash on delivery is available nationwide. You can also pay by bank transfer or JazzCash / Easypaisa — choose your preferred option at checkout.</p></details>
+          <details><summary>What if my model arrives damaged?</summary><p>Every model is foam-packed, but if anything arrives damaged, send us a photo within 48 hours of delivery and we'll replace it or refund you.</p></details>
+          <details><summary>Do you make great gifts?</summary><p>Absolutely — they're a hit for birthdays, retirements, military & aviation enthusiasts and executive desks. Ask us about gift notes.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section" style="padding-top:0">
+      <div class="wrap">
+        <div class="cta-band reveal">
+          <img src="assets/products/f-35c-lightning-ii/4.jpg" alt="" loading="lazy">
+          <span class="kicker">Can't find a model?</span>
+          <h2 class="h-display">Request your aircraft</h2>
+          <p>Looking for a specific jet, tank, warship or satellite? Tell us — we source new models every month.</p>
+          <div class="hero-ctas">
+            <a class="btn btn-primary" href="contact.html">Make a request</a>
+            <a class="btn btn-ghost" href="shop.html">Browse all models</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="js/config.js"></script>
+  <script src="js/products.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
